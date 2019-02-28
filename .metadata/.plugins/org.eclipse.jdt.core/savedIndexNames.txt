@@ -5,12 +5,12 @@ INDEX VERSION 1.126+/media/kunal/work/Design-and-Analysis-of-Algorithms/.metadat
 3214207201.index
 742522455.index
 1913109094.index
-3888198363.index
-2066489604.index
-2771403403.index
-3721837726.index
 2630498905.index
 900375881.index
+2066489604.index
+3888198363.index
+2771403403.index
+3721837726.index
 2982035129.index
 120211678.index
 527624335.index
