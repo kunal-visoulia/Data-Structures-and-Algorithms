@@ -1,5 +1,4 @@
-
-public class StackLinkedList{
+public class StackLinkedList {
     private class Node{
         int item;
         Node next;
