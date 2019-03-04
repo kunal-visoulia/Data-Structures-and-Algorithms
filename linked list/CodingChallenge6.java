@@ -64,7 +64,7 @@ public class CodingChallenge6<Item>{
             }
             current = current.next;
         }
-
+        System.out.println(hs);
     }
     public static void main(String[] args) {
         CodingChallenge6<Integer> obj = new CodingChallenge6<>();
