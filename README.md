@@ -1,4 +1,4 @@
-# Design-and-Analysis-of-Algorithms
+# Data-Structures-and-Algorithms
 ## Searching Algorithms
 ### Binary Search
 - Data structure	            : Array
