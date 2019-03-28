@@ -63,5 +63,6 @@ public class CodingChallenge11{
             }
         }
         System.out.print(triplets);
+        
     }
 }
