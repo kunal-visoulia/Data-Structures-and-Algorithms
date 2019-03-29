@@ -31,3 +31,4 @@ Extra Note: The solution set must not contain duplicate triplets.
 Input: [-1, 0, 1, 2, -1, -4]<br/>
 Output:[ [-1, 0, 1], [-1, -1, 2] ]
 
+https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/: **method 3**
