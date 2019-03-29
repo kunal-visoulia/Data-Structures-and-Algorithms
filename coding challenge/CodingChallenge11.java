@@ -62,7 +62,22 @@ public class CodingChallenge11{
                 }
             }
         }
-        System.out.print(triplets);
+        // System.out.print(triplets);
         
+        //other approach(O(n^2))
+        //ensure the array is sorted in non-decreasing order
+        for(int i=0;i<arr.length-2;i++){
+            int l=i+1;
+            int r=arr.length-1;
+            while(l<r){
+                if(arr[i]+arr[l]+arr[r]==0)
+                System.out.println("Triplets are: "+arr[i]+","+arr[l]+","+arr[r]);
+                else if(arr[i]+arr[l]+arr[r]<=0)
+                l++;
+                else 
+                r--;
+            }
+        }
+    
     }
 }
