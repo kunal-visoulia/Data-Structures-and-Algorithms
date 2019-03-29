@@ -15,11 +15,13 @@ Write an efficient program that returns a list of string that matches the start 
 
 For Example:
 Given: 
-List: { “contribute”, “geeks”, “geek”, “geekiest”, “ide”, “practice”}
+List: { “contribute”, “geeks”, “geek”, “geekiest”, “ide”, “practice”}<br/>
 Input: gee
 Should return: {“geeks”, “geek”, “geekiest”}
 
 Follow Up: How would you implement that code, without using Linear Search?
+
+https://www.geeksforgeeks.org/the-ubiquitous-binary-search-set-1/
 
 ## Challenge: 11
 Given an array n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
