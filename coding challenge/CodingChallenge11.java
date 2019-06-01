@@ -2,7 +2,8 @@ import java.util.*;
 
 public class CodingChallenge11{
     public static void main(String[] args){
-        int[] arr = new int[]{-1,0,1,2,-1,-4};
+        // int[] arr = new int[]{-1,0,1,2,-1,-4};
+        int[] arr = new int[]{1,4,45,6,0,19};
         
         Set<ArrayList<Integer>> triplets = new HashSet<ArrayList<Integer>>(10);
         
