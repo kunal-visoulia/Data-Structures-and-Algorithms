@@ -15,18 +15,18 @@ public class BST{
     BST(){
         root=null;
     }
-   private Node insert(Node node,int data){
-        if(node==null){
-            node=new Node(data);
+   private Node insert(Node root,int data){
+        if(root==null){
+            root=new Node(data);
         }
         else{
-            if(data<=node.data)
-                node.left=insert(node.left,data);
+            if(data<=root.data)
+                root.left=insert(root.left,data);
             
             else
-            node.right=insert(node.right,data);
+            root.right=insert(root.right,data);
         }
-        return node;
+        return root;
     }
     void insert(int data){
         root=insert(root,data);
