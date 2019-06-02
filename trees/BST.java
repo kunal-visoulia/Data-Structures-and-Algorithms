@@ -21,7 +21,7 @@ public class BST{
         }
         else{
             if(data<=root.data)
-                root.left=insert(root.left,data);
+                root.left=insert(root.left,data);//passing the root of left subtree as argument and updating the the root of left subtree after succesfull insertion
             
             else
             root.right=insert(root.right,data);
