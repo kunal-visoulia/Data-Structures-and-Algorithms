@@ -20,7 +20,14 @@ LinkedList has O(n) time complexity for arbitrary indices of add/remove, but O(1
 ## Quick Sort
 
 
+## What are BFS and DFS for Binary Tree?
+A Tree is typically traversed in two ways:
 
+Breadth First Traversal (Or Level Order Traversal)
+Depth First Traversals
+Inorder Traversal (Left-Root-Right)
+Preorder Traversal (Root-Left-Right)
+Postorder Traversal (Left-Right-Root)
 
 
 
