@@ -15,6 +15,40 @@ public class BST{
     BST(){
         root=null;
     }
+    void deleteKey(int data) 
+    { 
+        root = deleteRec(root, data); 
+    } 
+  
+    Node deleteRec(Node root, int data) 
+    { 
+        if(root==null) return root;
+         if(data>root.data){
+            root.right=deleteRec(root.right, data);
+         }
+         else if(data<root.data){
+            root.right=deleteRec(root.left, data);
+         }
+         else{
+        if(root.left==null)
+            return root.right;
+        else if(root.right==null)
+            return root.left;
+        root.data=minValue(root.right);// node with two children: Get the inorder successor (smallest 
+        root.right=deleteRec(root.right, root.data);
+    }
+        return root; 
+    } 
+  
+    int minValue(Node root) 
+    { int minv=root.data;
+        while(root.left!=null)
+{
+    minv=root.data;
+    root=root.left;
+}
+        return minv;
+    } 
    private Node insert(Node root,int data){
         if(root==null){
             root=new Node(data);
@@ -53,6 +87,9 @@ public static void main(String[] args) {
     bst.insert(6);
     bst.insert(10);
     bst.insert(9);
+    bst.inorder();
+    System.out.println("\n");
+    bst.deleteKey(4);
     bst.inorder();
 
 }
