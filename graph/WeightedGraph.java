@@ -28,10 +28,10 @@ public class WeightedGraph {
 
         public void addEgde(int source, int destination, int weight) {
             Edge edge1 = new Edge(source, destination, weight);
-            adjacencylist[source].addFirst(edge1); //for directed graph
+            adjacencylist[source].addFirst(edge1); //for undirected graph
 
             Edge edge2 = new Edge( destination,source, weight);
-            adjacencylist[destination].addFirst(edge2); //for directed graph
+            adjacencylist[destination].addFirst(edge2); //for undirected graph
         }
 
         public void printGraph(){
