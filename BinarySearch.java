@@ -8,7 +8,7 @@ public class BinarySearch {
 		int high = len-1;
 		
 		while(low <= high){
-			int m=low+(high)/2;
+			int m=low+(high-low)/2;
 			if(arr[m]==x){
 				return m;
 			}
